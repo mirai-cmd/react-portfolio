@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div name="home" className="bg-black">
       <div className="pt-12 h-[14rem]">
-        <div className="flex flex-col justify-center items-center lg:gap-4 pt-4 lg:pt-10">
+        <div className="flex flex-col justify-center items-center lg:gap-4 pt-6 lg:pt-10">
           <span className="text-white lg:text-xl">Hey there! I'm</span>
           <h1 className="text-[2.5rem] font-semibold lg:text-8xl text-green-400 px-1">
             Prajwal Ghotage
@@ -16,7 +16,7 @@ export default function Header() {
       </div>
       <div
         name="about"
-        className="flex flex-col justify-center items-start gap-4 lg:flex-row lg:items-center lg:px-40 lg:gap-16 bg-black text-white pt-2 lg:pt-[6rem] pb-[5rem] pl-3 lg:mt-[3rem]"
+        className="flex flex-col justify-center items-start gap-4 lg:flex-row lg:items-center lg:px-40 lg:gap-16 bg-black text-white pt-1 lg:pt-[6rem] pb-[5rem] pl-3 lg:mt-[3rem]"
       >
         <img
           src="/assets/Prajwal.jpg"
