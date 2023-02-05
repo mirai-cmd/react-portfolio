@@ -6,7 +6,7 @@ export default function Header() {
       <div className="pt-12 h-[14rem]">
         <div className="flex flex-col justify-center items-center lg:gap-4 pt-4 lg:pt-10">
           <span className="text-white lg:text-xl">Hey there I'm</span>
-          <h1 className="text-[2.6rem] font-semibold lg:text-8xl text-green-400 px-1">
+          <h1 className="text-[2.5rem] font-semibold lg:text-8xl text-green-400 px-1">
             Prajwal Ghotage
           </h1>
           <span className="text-[0.85rem] lg:text-xl text-white">
