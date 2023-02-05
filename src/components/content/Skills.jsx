@@ -5,42 +5,42 @@ export default function Skills() {
   const techs = [
     {
       id: 1,
-      source: "public/assets/html.png",
+      source: "/assets/html.png",
       title: "HTML",
     },
     {
       id: 2,
-      source: "public/assets/css.png",
+      source: "/assets/css.png",
       title: "CSS",
     },
     {
       id: 3,
-      source: "public/assets/javascript.png",
+      source: "/assets/javascript.png",
       title: "JavaScript",
     },
     {
       id: 4,
-      source: "public/assets/react.png",
+      source: "/assets/react.png",
       title: "React",
     },
     {
       id: 5,
-      source: "public/assets/tailwind.png",
+      source: "/assets/tailwind.png",
       title: "Tailwind CSS"
     },
     {
       id: 6,
-      source: "public/assets/mui.png",
+      source: "/assets/mui.png",
       title: "MaterialUI"
     },
     {
       id: 7,
-      source: "public/assets/metasploit.svg",
+      source: "/assets/metasploit.svg",
       title: "Metasploit"
     },
     {
       id: 8,
-      source: "public/assets/kali.png",
+      source: "/assets/kali.png",
       title: "Kali Linux"
     }
   ];
