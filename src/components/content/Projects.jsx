@@ -4,14 +4,14 @@ export default function Content() {
   const projects = [
     {
       id: 1,
-      img: "src/assets/PyScan.png",
+      img: "public/assets/PyScan.png",
       title: "PyScan",
       desc: "This is a command line port scanner written in python using argparser and python sockets. It includes options to scan custom port ranges and individual ports. Multithreading speeds up the scanning process.",
       code: "https://github.com/mirai-cmd/python-port-scanner"
     },
     {
       id: 2,
-      img: "src/assets/HackerSpace.png",
+      img: "public/assets/HackerSpace.png",
       title: "HackerSpace",
       desc: "This a React App that uses the NewsAPI to fetch content related to Cyber-Security. Material UI has been used for styling and displaying the news articles.",
       code: "https://github.com/mirai-cmd/hacker-space"

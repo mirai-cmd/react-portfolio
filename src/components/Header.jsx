@@ -19,7 +19,7 @@ export default function Header() {
         className="flex flex-col justify-center items-start gap-4 lg:flex-row lg:items-center lg:px-40 lg:gap-16 bg-black text-white lg:pt-[6rem] pb-[5rem] pl-3 lg:mt-[3rem]"
       >
         <img
-          src="src/assets/Prajwal.jpg"
+          src="public\assets\Prajwal.jpg"
           alt="prajwal"
           className="text-center h-[25rem] w-[18rem] m-auto rounded-[2rem] p-4 lg:h-[32rem] lg:w-[30rem] hover:scale-105 duration-500"
         />
