@@ -16,7 +16,7 @@ export default function Header() {
       </div>
       <div
         name="about"
-        className="flex flex-col justify-center items-start gap-4 lg:flex-row lg:items-center lg:px-40 lg:gap-16 bg-black text-white pt-4 lg:pt-[6rem] pb-[5rem] pl-3 lg:mt-[3rem]"
+        className="flex flex-col justify-center items-start gap-4 lg:flex-row lg:items-center lg:px-40 lg:gap-16 bg-black text-white pt-2 lg:pt-[6rem] pb-[5rem] pl-3 lg:mt-[3rem]"
       >
         <img
           src="/assets/Prajwal.jpg"
