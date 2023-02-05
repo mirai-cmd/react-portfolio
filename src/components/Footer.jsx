@@ -15,7 +15,7 @@ export default function Footer() {
         </a>
         <a
           className="bg-blue-600 rounded-full p-3 text-white"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/prajwal-ghotage-429a14244/"
         >
           <FaLinkedinIn />
         </a>
