@@ -1,54 +1,47 @@
 import React from "react";
 
-import html from "../../assets/html.png";
-import css from "../../assets/css.png";
-import javascript from "../../assets/javascript.png";
-import reactImage from "../../assets/react.png";
-import tailwind from "../../assets/tailwind.png";
-import mui from "../../assets/mui.png";
-import metasploit from "../../assets/metasploit.svg";
-import kali from "../../assets/kali.png";
+
 
 export default function Skills() {
   const techs = [
     {
       id: 1,
-      src: html,
+      src: "src/assets/html.png",
       title: "HTML",
     },
     {
       id: 2,
-      src: css,
+      src: "src/assets/css.png",
       title: "CSS",
     },
     {
       id: 3,
-      src: javascript,
+      src: "src/assets/javascript.png",
       title: "JavaScript",
     },
     {
       id: 4,
-      src: reactImage,
+      src: "src/assets/react.png",
       title: "React",
     },
     {
       id: 5,
-      src: tailwind,
+      src: "src/assets/tailwind.png",
       title: "Tailwind CSS"
     },
     {
       id: 6,
-      src: mui,
+      src: "src/assets/mui.png",
       title: "MaterialUI"
     },
     {
       id: 7,
-      src: metasploit,
+      src: "src/assets/metasploit.svg",
       title: "Metasploit"
     },
     {
       id: 8,
-      src: kali,
+      src: "src/assets/kali.png",
       title: "Kali Linux"
     }
   ];

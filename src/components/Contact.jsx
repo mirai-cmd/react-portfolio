@@ -7,7 +7,7 @@ export default function Contact() {
       <p className="pt-4 pl-3 lg:text-2xl">Ping me for collaborations on projects</p>
       <div className="flex flex-col lg:flex-row lg:justify-center items-center mt-10">
         <img
-          src="src/assets/Prajwal.jpg"
+          src="src/assets/Prajwal2.jpg"
           className="w-[90%] lg:h-[24.2rem] lg:w-[28%] "
         />
         <form
