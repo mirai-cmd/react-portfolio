@@ -26,7 +26,6 @@ export default function ProjectCard({ item }) {
       <CardActionArea sx={{ background: "#03fc7b" }}>
         <CardMedia
           component="img"
-          loading="lazy"
           image={item.img}
           alt={item.title}
           sx={{ height: "12rem", padding: "1.5rem", borderRadius: "2.4rem" }}
