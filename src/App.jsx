@@ -6,6 +6,7 @@ import Skills from './components/content/Skills'
 import Contact from "./components/Contact";
 import Footer from "./components/Footer"
 function App() {
+
   return (
     <div className="App">
       <NavBar />

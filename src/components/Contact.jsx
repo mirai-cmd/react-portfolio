@@ -1,39 +1,50 @@
 import React from "react";
-
 export default function Contact() {
   return (
-    <div name="contact" className="py-8 pl-3 bg-[#03fc7b]">
-      <h1 className="text-5xl lg:text-6xl font-semibold">Contact</h1>
-      <p className="pt-4 pl-3 lg:text-2xl">Ping me for collaborations on projects</p>
-      <div className="flex flex-col lg:flex-row lg:justify-center items-center mt-10">
+    <section
+      name="contact"
+      className="pt-14 pb-14 lg:h-[50rem] bg-[url('assets/main_background.jpg')] bg-cover"
+    >
+      <h1 className="text-6xl lg:text-7xl pl-6 font-semibold">Contact</h1>
+      <p className="pt-4 pl-6 lg:text-2xl">
+        Ping me for collaborations on projects or any other queries
+      </p>
+      <div className="flex flex-col lg:flex-row lg:justify-center items-center pt-[6rem]">
         <img
           src="/assets/Prajwal2.jpg"
-          className="w-[90%] lg:h-[24.2rem] lg:w-[28%] "
+          className="w-[90%] lg:h-[24.2rem] lg:w-[27%]"
         />
         <form
           name="form"
           action="https://getform.io/f/643dd0d2-7685-40d7-897b-5a09f0aa82cc"
           method="POST"
-          className="flex flex-col justify-center items-center gap-5 py-8 bg-gray-200 w-[90%] lg:w-[30%] lg:h-[50%] lg:mx-0"
+          style={{
+            background: "rgba(255, 255, 255, 0.3)",
+            boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+            backdropFilter: "blur(6.7px)",
+          }}
+          className="flex flex-col justify-center items-center gap-5 py-8 w-[90%] lg:w-[30%] lg:h-[50%] lg:mx-0"
         >
-          <input name="name"
+          <input
+            name="name"
             className="h-8 w-[80%] pl-3 rounded-[0.35rem] border-black border-[0.05rem]"
             placeholder="Your Name"
           />
-          <input name="email"
+          <input
+            name="email"
             className="h-8 w-[80%] pl-3 rounded-[0.35rem] border-black border-[0.05rem]"
             placeholder="Your Email"
           />
           <textarea
             name="message"
-            className="h-40 w-[80%] pl-3 rounded-[0.35rem] border-black border-[0.05rem] resize-none"
+            className="h-40 w-[80%] pl-3 pt-1 rounded-[0.35rem] border-black border-[0.05rem] resize-none"
             placeholder="Message"
           />
-          <button className="bg-[#03fc7b] rounded-[0.75rem] text-center pl-4 pt-2 pr-4 pb-2 hover:scale-105 duration-500 hover:text-white">
+          <button className=" rounded-[0.75rem] text-center pl-4 pt-2 pr-4 pb-2 hover:scale-105 hover:text-black hover:bg-white hover:border-black duration-500 text-white border-white border-[0.09rem]">
             Let's Connect
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 }

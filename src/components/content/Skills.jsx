@@ -40,27 +40,32 @@ export default function Skills() {
     },
     {
       id: 8,
-      source: "/assets/kali.png",
-      title: "Kali Linux"
+      source: "/assets/linux.png",
+      title: "Linux"
+    },
+    {
+      id: 9,
+      source: "/assets/burpsuite.jpg",
+      title: "Burpsuite"
     }
   ];
   return (
-    <div className="bg-black mt-10 pt-10">
-      <h1 className="font-semibold text-5xl pl-3 lg:text-6xl text-teal-300">
+    <section className="bg-black pt-14 pb-14">
+      <h1 className="font-semibold text-6xl pl-6 lg:text-7xl text-white">
         Skills
       </h1>
-      <p className="pt-4 pl-5 text-white lg:text-2xl">Technologies I've worked with</p>
-      <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+      <p className="pt-4 pl-6 text-white lg:text-2xl">Technologies I've worked with</p>
+      <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-12 text-center py-14 px-10 sm:px-0">
           {techs.map(({ id, source, title}) => (
             <div
               key={id}
-              className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg"
+              className="hover:scale-105 duration-500 py-2 rounded-lg"
             >
-              <img src={source} alt={title} className="w-20 mx-auto " />
+              <img src={source} alt={title} className="h-20 w-20 mx-auto" />
               <p className="text-white mt-4">{title}</p>
             </div>
           ))}
         </div>
-    </div>
+    </section>
   );
 }

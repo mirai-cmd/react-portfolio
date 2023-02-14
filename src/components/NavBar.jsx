@@ -1,13 +1,13 @@
 import { React, useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { MdClose } from "react-icons/md";
+import { MdClose,MdDownload } from "react-icons/md";
 import { Link } from "react-scroll";
 export default function NavBar() {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="fixed flex flex-row items-center w-full px-8 py-3 lg:py-6 bg-black text-white opacity-90 z-[1]">
       <a href="#" className="flex-1 text-2xl px-3">Prajwal</a>
-      <ul className="hidden md:flex flex-row flex-2 justify-around gap-9 mr-[3rem] cursor-pointer">
+      <ul className="hidden md:flex flex-row flex-2 justify-around items-center gap-9 mr-[3rem] cursor-pointer">
         <li className="hover:scale-105 hover:text-green-400 duration-500 cursor-pointer">
           <Link to="home" smooth duration={800}>
             Home
@@ -23,6 +23,17 @@ export default function NavBar() {
             Projects
           </Link>
         </li>
+        <li className="hover:scale-105 hover:text-green-400 duration-500 cursor-pointer">
+        <a
+          href="src\assets\Resume.pdf"
+          download
+          className="flex items-center gap-2 bg-green-400 text-black cursor-pointer rounded-[0.75rem] w-[7rem] p-[0.5rem] hover:scale-105 duration-500 hover:text-white"
+        >
+          Resume
+          <MdDownload />
+        </a>
+        </li>
+
         <li className="hover:scale-105 hover:text-green-400 duration-500 cursor-pointer">
           <Link to="contact" smooth duration={800}>
             Contact
