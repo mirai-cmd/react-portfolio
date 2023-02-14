@@ -3,7 +3,7 @@ export default function Contact() {
   return (
     <section
       name="contact"
-      className="pt-14 pb-14 lg:h-[50rem] bg-[url('assets/main_background.jpg')] bg-cover"
+      className="pt-14 pb-14 lg:h-[50rem] bg-[url('/assets/main_background.jpg')] bg-cover"
     >
       <h1 className="text-6xl lg:text-7xl pl-6 font-semibold">Contact</h1>
       <p className="pt-4 pl-6 lg:text-2xl">
