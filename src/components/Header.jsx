@@ -26,7 +26,7 @@ export default function Header() {
       <div className="h-[14rem] ">
         <div className="h-[26rem] flex flex-col justify-center items-center lg:gap-4 bg-black">
           <span className="text-white lg:text-xl">Hey there! I'm</span>
-          <h1 className="text-[2.8rem] font-semibold lg:text-8xl text-green-400 px-1">
+          <h1 className="text-[2.6rem] font-semibold lg:text-8xl text-green-400 px-1">
             Prajwal Ghotage
           </h1>
           <div className="typeWrapper w-full text-center">
