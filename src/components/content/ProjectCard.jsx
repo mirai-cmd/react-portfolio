@@ -17,7 +17,7 @@ export default function ProjectCard({ item }) {
         width:"19.5rem",
         height:"26rem",
         marginTop: "4rem",
-        marginLeft: "1.5rem",
+        marginLeft: "1rem",
         marginRight: "2rem",
         backgroundColor:"white",
         borderRadius: "0.8rem",
