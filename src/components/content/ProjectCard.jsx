@@ -14,7 +14,7 @@ export default function ProjectCard({ item }) {
   return (
     <Card
     sx={{
-        width:"22.4rem",
+        width:"20rem",
         height:"26rem",
         marginTop: "4rem",
         marginLeft: "1.5rem",
@@ -47,7 +47,8 @@ export default function ProjectCard({ item }) {
               href={item.code}
               target="_blank"
               style={{
-                backgroundColor:"green",
+                color:"white",
+                backgroundColor:"#20a4fc",
                 borderRadius: "0.45rem",
                 paddingTop: "0.5rem",
                 paddingBottom: "0.5rem",
@@ -56,7 +57,7 @@ export default function ProjectCard({ item }) {
                 width: "6rem",
                 cursor: "pointer",
               }}
-              className="hover:scale-105 duration-500 text-center m-auto"
+              className="hover:scale-105 hover:bg-black duration-500 text-center m-auto"
             >
               GitHub
             </a>
