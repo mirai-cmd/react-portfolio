@@ -14,33 +14,28 @@ export default function ProjectCard({ item }) {
   return (
     <Card
     sx={{
-        maxWidth: 345,
-        maxHeight: 600,
+        width:"22.4rem",
+        height:"26rem",
         marginTop: "4rem",
-        marginLeft: "3rem",
+        marginLeft: "1.5rem",
         marginRight: "2rem",
+        backgroundColor:"white",
         borderRadius: "0.8rem",
-        backdropFilter:"blur(10rem)",
-        background: "linear-gradient(to right bottom, #36EAEF, #6B0AC9)",
-        boxShadow: "0.2rem 0.3rem 0.8rem 0.05rem black",
       }}
       >
       <CardActionArea
-        sx={{
-          background: "linear-gradient(to right bottom, #36EAEF, #6B0AC9)",
-        }}
         >
         <CardMedia
           component="img"
           image={item.img}
           alt={item.title}
-          sx={{ height: "12rem", padding: "1.5rem", borderRadius: "2.4rem" }}
+          sx={{ height: "10rem",width:"24rem" }}
           />
-        <CardContent >
-          <Typography gutterBottom variant="h5" component="div" color="white">
+        <CardContent color="black" >
+          <Typography gutterBottom variant="h5" component="div">
             {item.title}
           </Typography>
-          <Typography variant="body2" color="white">
+          <Typography variant="body2">
             {item.desc}
           </Typography>
           <CardActions
