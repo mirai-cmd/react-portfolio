@@ -5,7 +5,7 @@ import { MdDownload } from "react-icons/md";
 export default function Content() {
 
   return (
-    <section name="about" className="mt-0 lg:mt-[6rem] pt-[13rem] pb-[4rem] px-4 lg:px-[8rem] lg:pb-[8rem] bg-black text-white lg:flex justify-center gap-8">
+    <section name="about" className="mt-0 lg:mt-[6rem] pt-[11rem] pb-[5rem] px-4 lg:px-[8rem] lg:pb-[8rem] bg-black text-white lg:flex justify-center gap-8">
       <img src="/assets/Prajwal.jpg" className="text-center mt-[-6rem] h-[24rem] w-[16rem] m-auto rounded-[2rem] lg:h-[32rem] lg:w-[28rem] hover:scale-105 duration-500" alt="prajwal"/>
       <div className="aboutWrapper">
         <h1 className="pt-[4rem] lg:mt-[-6rem] text-4xl lg:text-6xl font-semibold">About Me</h1>

@@ -13,7 +13,8 @@ export default function Header() {
       ],
       typeSpeed: 50,
       backSpeed: 50,
-      loop:true
+      loop:true,
+      cursorChar: '|'
     };
     typed.current = new Typed(el.current, options);
     
@@ -24,7 +25,7 @@ export default function Header() {
   return (
     <section name="home">
       <div className="h-[14rem] ">
-        <div className="h-[26rem] flex flex-col justify-center items-center lg:gap-4 bg-black">
+        <div className="h-[23rem] flex flex-col justify-center items-center lg:gap-4 bg-black">
           <span className="text-white mt-[-2rem] lg:text-xl">Hey there! I'm</span>
           <h1 className="text-[2.3rem] font-semibold lg:text-8xl text-green-400 px-1">
             Prajwal Ghotage
