@@ -45,7 +45,9 @@ export default function ProjectCard({ item }) {
             >
             <a
               href={item.code}
+              target="_blank"
               style={{
+                backgroundColor:"green",
                 borderRadius: "0.45rem",
                 paddingTop: "0.5rem",
                 paddingBottom: "0.5rem",
@@ -54,7 +56,7 @@ export default function ProjectCard({ item }) {
                 width: "6rem",
                 cursor: "pointer",
               }}
-              className="hover:scale-105 duration-500 text-white bg-black text-center m-auto"
+              className="hover:scale-105 duration-500 text-center m-auto"
             >
               GitHub
             </a>
