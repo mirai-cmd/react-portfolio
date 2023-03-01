@@ -14,7 +14,7 @@ export default function ProjectCard({ item }) {
   return (
     <Card
     sx={{
-        width:"19.5rem",
+        width:"18.8rem",
         height:"26rem",
         marginTop: "4rem",
         marginLeft: "1rem",
