@@ -40,7 +40,7 @@ export default function Footer() {
       </h2>
       <ul className="flex flex-row justify-center items-center h-[8rem] gap-6 pl-8 text-xl">
         {socials.map(({id,styles,href,icon})=>{
-          return(<a key={id} className={styles} href={href} >{icon}</a>);
+          return(<a key={id} className={styles} href={href} target="_blank">{icon}</a>);
         })}
       </ul>
     </footer>
