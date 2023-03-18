@@ -22,7 +22,7 @@ export default function Footer() {
       id: 3,
       styles:
         "bg-gray-800 rounded-full p-3 text-white hover:text-gray-800 hover:bg-white duration-300",
-      href: "https://instagram.com/praj_wxl89",
+      href: "https://github.com/mirai-cmd",
       icon: <BsGithub />,
     },
     {
