@@ -27,6 +27,7 @@ export default function Content() {
         <a
           href="/assets/Resume.pdf"
           download
+          target="_blank"
           className="lg:hidden flex items-center gap-2 bg-green-400 text-black cursor-pointer rounded-[0.75rem] w-[7rem] p-[0.75rem] mt-3 hover:scale-105 duration-500 hover:text-white"
           >
           Resume
