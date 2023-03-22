@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 export default function NavBar() {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="fixed flex flex-row items-center w-full px-8 py-3 lg:py-6 bg-black text-white opacity-90 z-[1]">
+    <nav className="fixed flex flex-row items-center w-full px-8 py-3 lg:py-4 bg-black text-white opacity-90 z-[1]">
       <a href="#" className="flex-1 text-2xl px-3">Prajwal</a>
       <ul className="hidden md:flex flex-row flex-2 justify-around items-center gap-9 mr-[3rem] cursor-pointer">
         <li className="hover:scale-105 hover:text-green-400 duration-500 cursor-pointer">

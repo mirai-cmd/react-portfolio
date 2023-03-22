@@ -26,7 +26,8 @@ export default function Header() {
     <section name="home">
       <div className="h-[14rem] ">
         <div className="h-[23rem] flex flex-col justify-center items-center lg:gap-4 bg-black">
-          <span className="text-white mt-[-2rem] lg:text-xl">Hey there! I'm</span>
+          <span className="text-white 
+          lg:text-xl">Hey there! I'm</span>
           <h1 className="text-[2.3rem] font-semibold lg:text-8xl text-green-400 px-1">
             Prajwal Ghotage
           </h1>

@@ -62,7 +62,7 @@ export default function Skills() {
               className="hover:scale-105 duration-500 py-2 rounded-lg"
             >
               <img src={source} alt={title} className="h-20 w-20 mx-auto" />
-              <p className="text-black mt-4">{title}</p>
+              <p className="text-white mt-4">{title}</p>
             </div>
           ))}
         </div>
