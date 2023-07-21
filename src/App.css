@@ -20,3 +20,11 @@ h1 {
   animation: ease 1.3s drop-in;
   animation-fill-mode: forwards;
 }
+.projectCard:hover{
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(246, 246, 250, 0.25) 0px 50px 100px -20px, rgba(247, 241, 241, 0.3) 0px 0px 10px -10px;
+  background-color: black;
+  border-color: white;
+  border-width: 0.1px;
+
+  transition: 0.5s ease-in-out;
+}
