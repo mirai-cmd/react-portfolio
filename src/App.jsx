@@ -1,11 +1,11 @@
 import "./App.css";
-import Projects from "./components/content/Projects";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
-import Skills from './components/content/Skills'
-import Contact from "./components/Contact";
 import Footer from "./components/Footer"
-import About from "./components/About"
+import Projects from "./sections/Projects";
+import Skills from './sections/Skills'
+import Contact from "./sections/Contact";
+import About from "./sections/About"
 
 function App() {
 

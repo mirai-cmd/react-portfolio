@@ -16,7 +16,7 @@ export default function Contact() {
         />
         <form
           name="form"
-          action="https://getform.io/f/643dd0d2-7685-40d7-897b-5a09f0aa82cc"
+          action={import.meta.env.VITE_GETFORM_ENDPOINT}
           method="POST"
           style={{
             background: "rgba(255, 255, 255, 0.3)",
