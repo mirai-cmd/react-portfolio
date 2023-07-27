@@ -2,7 +2,7 @@ import React from "react";
 import { BiLink } from "react-icons/bi";
 export default function ProjectCard({ title, img, desc, code, tags, live }) {
   return (
-    <section className="bg-gray-900 p-2 lg:p-3 rounded-xl ml-6 lg:mr-10 w-[22rem] lg:w-[35rem]">
+    <section className="bg-gray-900 p-2 lg:p-3 rounded-xl lg:mr-10 w-[21.4rem] lg:w-[35rem]">
       <div className="relative h-[230px]">
         <img
           src={img}

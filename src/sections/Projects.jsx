@@ -4,7 +4,7 @@ import {projects} from "../constants"
 export default function Content() {
 
   return (
-    <section name="projects" className="bg-black  text-white pb-14">
+    <section name="projects" className=" text-white pb-14">
       <div className="text-5xl lg:text-7xl pb-20 text-center font-extralight">
         Projects
       </div>

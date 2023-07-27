@@ -10,7 +10,7 @@ import About from "./sections/About"
 function App() {
 
   return (
-    <div className="App">
+    <div className="gradient">
       <NavBar />
       <Header />
       <About/>
