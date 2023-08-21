@@ -37,7 +37,7 @@ export default function NavBar() {
         </li>
         <li className="hover:scale-105 hover:text-green-400 duration-500 cursor-pointer">
           <a
-            href="/assets/Resume.pdf"
+            href="/assets/PrajwalGhotage_CSE_Resume.pdf"
             download
             className="flex items-center gap-2 bg-green-400 text-black cursor-pointer rounded-[0.75rem] w-[7rem] p-[0.5rem] hover:scale-105 duration-500 hover:text-white"
           >

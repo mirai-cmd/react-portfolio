@@ -10,10 +10,6 @@ export default function Contact() {
         Ping me for collaborations on projects or any other queries
       </p>
       <div className="flex flex-col lg:flex-row lg:justify-center items-center pt-[6rem]">
-        <img
-          src="/assets/Prajwal2.jpg"
-          className="w-[90%] lg:h-[30rem] lg:w-[28.5rem]"
-        />
         <form
           name="form"
           action={import.meta.env.VITE_GETFORM_ENDPOINT}

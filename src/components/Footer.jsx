@@ -1,7 +1,6 @@
 import React from "react";
 import { BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
-
 export default function Footer() {
   const socials = [
     {
